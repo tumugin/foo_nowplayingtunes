@@ -62,8 +62,8 @@ void CPlayback::on_playback_new_track(metadb_handle_ptr track)
 		send += info.meta_get("ALBUM ARTIST", 0);
 	}
 	send += "\n";
-	if (info.meta_exists("TRACK")){
-		send += info.meta_get("TRACK", 0);
+	if (info.meta_exists("tracknumber")){
+		send += info.meta_get("tracknumber", 0);
 	}
 	send += "\n";
 	if (info.meta_exists("GENRE")){
