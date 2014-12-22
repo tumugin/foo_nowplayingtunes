@@ -3,7 +3,7 @@
 #include "../SDK/foobar2000.h"
 #include "../helpers/helpers.h"
 
-DECLARE_COMPONENT_VERSION("NowplayingTunes","1.0.0",NULL)
+DECLARE_COMPONENT_VERSION("NowplayingTunes","1.0.1","NowplayingTunes Client Ver1.0")
 class CPlayback : public play_callback_static
 {
 public:
